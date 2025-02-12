@@ -1,0 +1,272 @@
+{
+  "topics": [
+    {
+      "id": "GreekGods",
+      "title": "Greek Gods",
+      "yearOnScale": 500,
+      "questions": [
+        {
+          "question": "Recognition of Zeus as the chief god of Olympus.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Zeus was already recognized as the chief god of Olympus in Greek mythology before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the myth of the Trojan War.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The myths of the Trojan War, described in Homer’s 'Iliad,' date back to before 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the cult of Aphrodite as the goddess of love and beauty.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The cult of Aphrodite existed before 500 Before the Common Era, as she was revered as the goddess of love and beauty."
+        },
+        {
+          "question": "Recognition of Apollo as the god of the arts and prophecy.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Apollo, as the god of the arts and prophecy, was well-known and worshiped before 500 Before the Common Era."
+        },
+        {
+          "question": "Construction of the Parthenon temple in honor of Athena.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "The Parthenon, a temple dedicated to Athena, was completed in 438 Before the Common Era, after the mid-500 BCE mark."
+        },
+        {
+          "question": "Introduction of the myth of Persephone’s annual descent into the Underworld.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The myth of Persephone’s descent into the Underworld to explain the changing seasons existed in Greek mythology before 500 Before the Common Era."
+        },
+        {
+          "question": "Establishment of the Oracle of Delphi as a major religious and prophetic site.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The Oracle of Delphi was a key religious site and prophecy center in Greece before 500 Before the Common Era."
+        },
+        {
+          "question": "Recognition of Hades as the god of the Underworld.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Hades, the ruler of the Underworld, was acknowledged in Greek mythology before 500 Before the Common Era."
+        },
+        {
+          "question": "Worship of the goddess Nike as the personification of victory.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Nike, the personification of victory, was already worshiped in ancient Greece before 500 Before the Common Era."
+        },
+        {
+          "question": "Appearance of the mythological tales of Heracles’ Twelve Labors.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The myths of Heracles' Twelve Labors were part of Greek mythology well before 500 Before the Common Era."
+        }
+      ]
+    },
+    {
+      "id": "RomanGods",
+      "title": "Roman Gods",
+      "yearOnScale": 500,
+      "questions": [
+        {
+          "question": "Construction of the Pantheon in Rome in honor of all gods.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "The Pantheon was reconstructed between 118-125 Before the Common Era during Emperor Hadrian's reign as a temple dedicated to all Roman gods."
+        },
+        {
+          "question": "Development of the cult of Jupiter as the chief god of Rome.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Jupiter, as the chief god of Rome, had a well-established cult before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the Roman god Mercury as the god of trade.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Mercury, the god of trade, commerce, and communication, was recognized before 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the cult of the goddess Vesta as the protector of the hearth.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The cult of Vesta, the goddess of the hearth and home, existed before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the imperial cult in Rome.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "The imperial cult, which deified Roman emperors, developed after 500 Before the Common Era, particularly under Augustus and his successors."
+        },
+        {
+          "question": "Establishment of the Roman festival of Saturnalia in honor of Saturn.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Saturnalia, a festival in honor of the god Saturn, was established before 500 Before the Common Era and was one of the most important Roman holidays."
+        },
+        {
+          "question": "Recognition of Neptune as the god of the sea.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Neptune, the Roman god of the sea, was acknowledged in Roman religion before 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the cult of Bacchus as the god of wine and revelry.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Bacchus, the Roman god of wine, ecstasy, and revelry, had a cult established before 500 Before the Common Era."
+        },
+        {
+          "question": "Introduction of the Roman goddess Ceres as the deity of agriculture.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Ceres, the goddess of agriculture, grain, and fertility, was worshiped in Rome before 500 Before the Common Era."
+        },
+        {
+          "question": "Recognition of the goddess Diana as the goddess of the hunt and wilderness.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Diana, the goddess of the hunt, the moon, and wilderness, was revered in Roman religion before 500 Before the Common Era."
+        }
+      ]
+    },
+    {
+      "id": "IndianGods",
+      "title": "Indian Gods",
+      "yearOnScale": 500,
+      "questions": [
+        {
+          "question": "Recognition of Brahma as the creator god in Hinduism.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Brahma was already recognized as the creator god in Hinduism before 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the concept of karma in Hinduism.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The concept of karma, central to Hindu belief and influencing actions and their consequences, was well established before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of Krishna as an avatar of Vishnu in the epics.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "Krishna's role as an avatar of Vishnu became prominent in Hindu epics after 500 Before the Common Era."
+        },
+        {
+          "question": "Recognition of Lakshmi as the goddess of prosperity and good fortune.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Lakshmi, as the goddess of prosperity and good fortune, was already worshiped before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of river deity cults such as Ganesh.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "The worship of Ganesh, particularly as the god of wisdom and beginnings, became more prominent after 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the Upanishads, philosophical texts central to Hinduism.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The Upanishads, which explore profound philosophical and spiritual concepts, were composed before 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the concept of dharma in Hinduism.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The concept of dharma, relating to duty and moral order, was a central idea in Hinduism before 500 Before the Common Era."
+        },
+        {
+          "question": "Recognition of Vishnu as the preserver god in Hinduism.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Vishnu, as the preserver of the universe, was already a key figure in Hinduism before 500 Before the Common Era."
+        },
+        {
+          "question": "Development of the Mahabharata, an epic central to Indian culture.",
+          "correctAnswer": "After 500 Before the Common Era",
+          "isBefore": false,
+          "explanation": "Although the origins of the Mahabharata trace back earlier, the epic as we know it was developed after 500 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the concept of reincarnation in Indian religions.",
+          "correctAnswer": "Before 500 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The belief in reincarnation, central to Hinduism, was already established before 500 Before the Common Era."
+        }
+      ]
+    },
+    {
+      "id": "NorseGods",
+      "title": "Norse Gods",
+      "yearOnScale": 1000,
+      "questions": [
+        {
+          "question": "Recognition of Odin as the chief god in the Norse pantheon.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Odin was recognized as the chief god of the Norse pantheon, associated with wisdom, war, and death, before 1000 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the myth of Ragnarok, the end of the world.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The myth of Ragnarok, which foretells the destruction of the gods and the end of the world, was part of Norse mythology before 1000 Before the Common Era."
+        },
+        {
+          "question": "Development of the cult of Thor as the god of thunder.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Thor, the god of thunder, storms, and strength, was worshiped as a major figure in Norse mythology before 1000 Before the Common Era."
+        },
+        {
+          "question": "Recognition of Freyja as the goddess of love and fertility.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Freyja, the goddess of love, beauty, and fertility, was already recognized in Norse mythology before 1000 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the myth of Yggdrasil, the World Tree.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The myth of Yggdrasil, the great World Tree connecting the nine realms of Norse cosmology, existed in Norse belief before 1000 Before the Common Era."
+        },
+        {
+          "question": "Development of the myth of Loki as the god of mischief and deception.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Loki, the trickster god of mischief and chaos, was a known figure in Norse mythology before 1000 Before the Common Era."
+        },
+        {
+          "question": "Emergence of the cult of Baldr as the god of light and purity.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Baldr, the god of light, joy, and purity, was worshiped before 1000 Before the Common Era in Norse culture."
+        },
+        {
+          "question": "Development of myths about the Aesir and Vanir, ancient Norse deities.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Myths of the Aesir and Vanir, two groups of Norse gods who waged war and later reconciled, were established before 1000 Before the Common Era."
+        },
+        {
+          "question": "Recognition of Njord as the god of the sea and fertility.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "Njord, the god of the sea, wind, and fertility, was already worshiped in Norse mythology before 1000 Before the Common Era."
+        },
+        {
+          "question": "Development of the cult of the Valkyries as goddesses of war and death.",
+          "correctAnswer": "Before 1000 Before the Common Era",
+          "isBefore": true,
+          "explanation": "The Valkyries, female figures who chose warriors for the afterlife in Valhalla, were part of Norse belief before 1000 Before the Common Era."
+        }
+      ]
+    }
+  ]
+}
