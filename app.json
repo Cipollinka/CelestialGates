@@ -1,4 +1,25 @@
 {
   "name": "celestial_gates",
-  "displayName": "celestial_gates"
+  "displayName": "Celestial Gates",
+  "build": "1",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "features": {
+    "quiz": true,
+    "pantheon": true,
+    "predictions": true,
+    "collection": true
+  },
+  "theme": {
+    "primaryColor": "#1A0B2E",
+    "secondaryColor": "#9F2B68",
+    "accentColor": "#FFD700"
+  },
+  "assets": {
+    "icons": "./root/assets/icons",
+    "images": "./root/assets/images",
+    "fonts": "./root/assets/fonts"
+  },
+  "supportedLocales": ["en", "es", "fr", "de"],
+  "defaultLocale": "en"
 }

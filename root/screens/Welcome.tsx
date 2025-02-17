@@ -1,45 +1,52 @@
-import {View, Text} from 'react-native';
-import React, {useLayoutEffect} from 'react';
+import {View, Text, Animated} from 'react-native';
+import React, {useEffect, useRef} from 'react';
 import SafeWrapper from '@/components/SafeWrapper';
-import Block from '@/components/default/Block';
 import Button from '@/components/default/Button';
 import {Screens, TUseNav} from '@/models/root';
 import {useNavigation} from '@react-navigation/native';
-import {useUserStore} from '@/state/userStore';
+import MysticOverlay from '@/components/effects/MysticOverlay';
 
 export default function Welcome() {
   const navigation = useNavigation<TUseNav>();
+  const fadeAnim = useRef(new Animated.Value(0)).current;
 
-  const isFirstLogin = useUserStore(state => state.isFirstLogin);
-  const setIsFirstLogin = useUserStore(state => state.setIsFirstLogin);
-
-  useLayoutEffect(() => {
-    if (isFirstLogin) {
-      navigation.navigate(Screens.Bonus);
-    }
+  useEffect(() => {
+    Animated.sequence([
+      Animated.timing(fadeAnim, {
+        toValue: 1,
+        duration: 1500,
+        useNativeDriver: true,
+      }),
+    ]).start();
   }, []);
 
   return (
     <SafeWrapper>
-      <View className="my-auto gap-4">
-        <Block>
-          <Text className="text-2xl font-bold">
-            We’re delighted to have you in our app, dedicated to the fascinating
-            world of gods and mythical culture. Here, you’ll immerse yourself in
-            ancient legends, mysterious myths, and the mighty deities that
-            shaped human history. Enjoy your journey through time and space as
-            you uncover new knowledge and experiences. We hope our app inspires
-            you to make new discoveries and embark on exciting explorations.
-            Let’s uncover the secrets of the mythical world together!
+      <MysticOverlay />
+      <View className="flex-1 justify-center items-center">
+        <Animated.View
+          style={{opacity: fadeAnim}}
+          className="px-6 py-8 rounded-3xl bg-mystic-overlay backdrop-blur-sm">
+          <Text className="text-3xl font-bold text-divine-white text-center mb-6">
+            Welcome, Seeker of Divine Knowledge
           </Text>
-        </Block>
-        <Button
-          title="Unlock the Gates"
-          onPress={() => {
-            navigation.navigate(Screens.Bonus);
-            setIsFirstLogin(true);
-          }}
-        />
+          <Text className="text-xl text-divine-white text-center leading-relaxed mb-8">
+            Embark on an extraordinary journey through the realms of ancient
+            deities. Uncover the mysteries of Greek, Norse, and Eastern
+            pantheons as you challenge your wisdom in divine trials.
+          </Text>
+          <Text className="text-lg text-accent text-center italic mb-12">
+            "Through knowledge of the gods, we understand ourselves."
+          </Text>
+          <View className="gap-4">
+            <Button
+              title="Begin Your Divine Journey"
+              variant="divine"
+              size="lg"
+              onPress={() => navigation.navigate(Screens.Bonus)}
+            />
+          </View>
+        </Animated.View>
       </View>
     </SafeWrapper>
   );

@@ -1,14 +1,13 @@
-import {Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
-import {LinearGradient} from 'react-native-linear-gradient';
-import clsx from 'clsx';
+import {TouchableOpacity, Text, StyleSheet, View} from 'react-native';
+import AnimatedLinearGradient from 'react-native-animated-linear-gradient';
 
 interface ButtonProps {
   title: string;
   onPress: () => void;
   disabled?: boolean;
   isDisabledHidden?: boolean;
-  width?: number;
+  width?: number | string;
 }
 
 export default function Button({
@@ -22,24 +21,48 @@ export default function Button({
     <TouchableOpacity
       onPress={onPress}
       disabled={disabled}
-      style={{width: width || '100%'}}
-      className={clsx('rounded-3xl overflow-hidden', {
-        'w-full': !width,
-      })}>
-      <LinearGradient
-        colors={['#FFF327', '#F47015']}
-        start={{x: 0, y: 0}}
-        end={{x: 1, y: 0}}
-        className={clsx(
-          'w-full !h-16 rounded-3xl items-center justify-center',
-          {
-            'opacity-40': disabled && !isDisabledHidden,
-          },
-        )}>
-        <View className="items-center justify-center h-16 w-full">
-          <Text className="text-2xl font-bold">{title}</Text>
+      style={[
+        styles.container,
+        {width: width || '100%'},
+        disabled && !isDisabledHidden && styles.disabled,
+      ]}>
+      <AnimatedLinearGradient
+        customColors={['#FFF327', '#F47015', '#FFB627', '#FF5733']}
+        points={{start: {x: 0, y: 0}, end: {x: 1, y: 0}}}
+        style={[
+          styles.gradient,
+          disabled && !isDisabledHidden && styles.disabled,
+        ]}>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          <Text style={styles.text}>{title}</Text>
         </View>
-      </LinearGradient>
+      </AnimatedLinearGradient>
     </TouchableOpacity>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    position: 'relative',
+    height: 64,
+    borderRadius: 24,
+    overflow: 'hidden',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  gradient: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 'auto',
+    borderRadius: 24,
+  },
+  text: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+  },
+  disabled: {
+    opacity: 0.4,
+  },
+});

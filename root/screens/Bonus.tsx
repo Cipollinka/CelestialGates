@@ -52,7 +52,7 @@ export default function Bonus() {
 
   return (
     <SafeWrapper>
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView showsVerticalScrollIndicator={false} className="mt-4">
         <View className="my-auto gap-4">
           <Block>
             <Text className="text-2xl font-bold">

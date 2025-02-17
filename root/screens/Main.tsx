@@ -11,17 +11,15 @@ export default function Main() {
   const navigation = useNavigation<TUseNav>();
   return (
     <SafeWrapper>
-      <Heading
-        title="Quiz of the Celestial Gates"
-        className="my-10 !text-[40px] max-w-[288px]"
-      />
+      <Heading title="Quiz of the Celestial Gates" className="my-2" />
 
       <Image
         source={require('@/assets/images/main.png')}
-        className="flex-1 max-w-full max-h-full rounded-3xl"
+        style={{width: '100%'}}
+        resizeMode="contain"
       />
 
-      <View className="mt-10 gap-4 mb-4">
+      <View className="mt-2 gap-4">
         <Button
           title="Collection"
           onPress={() => navigation.navigate(Screens.Collection)}

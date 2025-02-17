@@ -30,7 +30,7 @@ export default function IncorrectAnswerModal({
           You have {lives} lives left
         </Text>
 
-        <View className="flex-row gap-4 mx-auto mt-4 mb-10">
+        <View className="flex-row gap-4 mx-auto mt-4 mb-10 items-center">
           {Array.from({length: 3}).map((_, index) => (
             <View key={index}>
               {lives > index ? <HeartFilledIcon /> : <HeartUnfilledIcon />}

@@ -1,15 +1,17 @@
 import React from 'react';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import RootNavigation from '@/components/app/RootNavigation';
+import AppNavigator from '@/components/app/RootNavigation';
+import BackgroundMusic from '@/components/app/BackgroundMusic';
 
 import './global.css';
 
 function App(): React.JSX.Element {
   return (
-    <GestureHandlerRootView>
+    <GestureHandlerRootView style={{flex: 1}}>
       <SafeAreaProvider>
-        <RootNavigation />
+        <AppNavigator />
+        <BackgroundMusic />
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );

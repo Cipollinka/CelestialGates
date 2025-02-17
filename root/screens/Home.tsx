@@ -30,7 +30,7 @@ export default function HomeScreen() {
       <View className="flex-1 items-center justify-center w-full mx-auto">
         <Heading
           title="Save your progress and statistics"
-          className="max-w-[300px] text-center"
+          className="text-center"
         />
         <View className="w-full gap-4 mt-14">
           <Button title="Log in" onPress={handleLogin} />

@@ -38,7 +38,7 @@ export default function AppNavigation() {
   const route = useRoute();
 
   return (
-    <View className="flex-row justify-between items-center mt-auto">
+    <View className="flex-row justify-between items-center mt-auto mb-2">
       {navItems.map(({Icon, screen}, index) => {
         const isActive = route.name === screen;
         return (
