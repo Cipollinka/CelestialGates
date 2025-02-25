@@ -28,6 +28,8 @@ workflows:
     scripts:
       - name: Install npm dependencies
         script: npm install --force
+      - name: Install npm dependencies
+        script: npm install --force
       - name: Install CocoaPods dependencies
         script: cd ios && pod install
       - name: Set up keychain for code signing
