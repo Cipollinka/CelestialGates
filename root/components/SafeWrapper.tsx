@@ -5,7 +5,7 @@ import {
   StatusBar,
   StyleSheet,
   Animated,
-  Dimensions,
+  Dimensions, Image,
 } from 'react-native';
 import Svg, {Defs, RadialGradient, Stop, Rect} from 'react-native-svg';
 import {createPulseAnimation} from '@/utils/animations';
@@ -31,23 +31,6 @@ export default function SafeWrapper({
     };
   }, []);
 
-  const getGradientStops = () => {
-    const colors = {
-      dark: ['#120718', '#1A0B2E', '#2A1B3D'],
-      light: ['#2A1B3D', '#1A0B2E', '#120718'],
-      default: ['#1A0B2E', '#2A1B3D', '#120718'],
-    };
-
-    return colors[variant].map((color, index) => (
-      <Stop
-        key={index}
-        offset={`${index === 0 ? 10 : index === 1 ? 40 : 90}%`}
-        stopColor={color}
-        stopOpacity="1"
-      />
-    ));
-  };
-
   return (
     <SafeAreaView className="flex-1">
       <StatusBar
@@ -56,20 +39,7 @@ export default function SafeWrapper({
         translucent
       />
       <View style={StyleSheet.absoluteFill}>
-        <Svg height="100%" width="100%">
-          <Defs>
-            <RadialGradient
-              id="grad"
-              cx="150"
-              cy="150"
-              rx="350"
-              ry="350"
-              gradientUnits="userSpaceOnUse">
-              {getGradientStops()}
-            </RadialGradient>
-          </Defs>
-          <Rect x="0" y="0" width={width} height={height} fill="url(#grad)" />
-        </Svg>
+        <Image style={{flex: 1, width: '100%', height: '100%', position: 'absolute'}} source={require('../assets/images/bg.png')}/>
         <View className="absolute inset-0 opacity-30">
           {/* Animated mystical particles */}
           <Animated.View
