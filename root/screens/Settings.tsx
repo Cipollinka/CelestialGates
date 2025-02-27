@@ -43,7 +43,7 @@ export default function Settings() {
       </Block>
 
       <View className="mt-4">
-        <Button title="Reset progress" onPress={resetProgress} />
+        <Button title="Delete Account" onPress={resetProgress} />
       </View>
 
       <AppNavigation />
